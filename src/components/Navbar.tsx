@@ -68,9 +68,7 @@ const Navbar: React.FC = () => {
           <li>
             <NavLink to="/leadership" className={({ isActive }) => `${linkBase} ${isActive ? active : inactive}`}>Leadership</NavLink>
           </li>
-          <li>
-            <NavLink to="/give" className={({ isActive }) => `${linkBase} ${isActive ? active : inactive}`}>Give</NavLink>
-          </li>
+          
           <li>
             <NavLink to="/contact" className={({ isActive }) => `${linkBase} ${isActive ? active : inactive}`}>Contact</NavLink>
           </li>
@@ -109,7 +107,7 @@ const Navbar: React.FC = () => {
 
             <li><NavLink to="/events" onClick={() => setOpen(false)} className={({ isActive }) => `block ${linkBase} ${isActive ? active : inactive}`}>Events</NavLink></li>
             <li><NavLink to="/leadership" onClick={() => setOpen(false)} className={({ isActive }) => `block ${linkBase} ${isActive ? active : inactive}`}>Leadership</NavLink></li>
-            <li><NavLink to="/give" onClick={() => setOpen(false)} className={({ isActive }) => `block ${linkBase} ${isActive ? active : inactive}`}>Give</NavLink></li>
+            
             <li><NavLink to="/contact" onClick={() => setOpen(false)} className={({ isActive }) => `block ${linkBase} ${isActive ? active : inactive}`}>Contact</NavLink></li>
           </ul>
         </div>

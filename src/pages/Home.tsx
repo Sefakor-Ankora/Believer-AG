@@ -33,7 +33,7 @@ const Home: React.FC = () => {
             </div>
             <div className="p-6 text-center">
               <h4 className="text-2xl font-semibold text-blue-800">
-                {leadershipData.seniorPastor.name} & Mrs. [Wife’s Name]
+                {leadershipData.seniorPastor.name} & Mrs. Georgina Alordjiso
               </h4>
               <p className="text-gray-700 mt-2 max-w-3xl mx-auto">
                 We warmly welcome you to Believers Temple AG. Join us as we worship, grow, and serve together in the
